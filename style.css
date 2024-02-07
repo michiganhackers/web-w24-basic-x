@@ -11,6 +11,8 @@ button:hover {
 #logo {
   width: 72px;
   height: 72px;
+  position: relative; /* not the recommended way to position elements */
+  bottom: 16px;
 }
 
 .tweet {
@@ -27,4 +29,10 @@ h2 {
 
 p {
   margin: 0;
+}
+
+#title {
+  position: fixed;
+  top: 0;
+  left: 0;
 }
