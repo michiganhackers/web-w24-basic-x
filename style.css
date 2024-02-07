@@ -9,12 +9,22 @@ button:hover {
 }
 
 #logo {
-  width: 10%;
-  /* height: 72px; */
+  width: 72px;
+  height: 72px;
 }
 
 .tweet {
+  margin: 16px;
+  padding: 8px;
   border: 1px solid #aaaaaa;
   background: rgb(240, 240, 240);
   color: hsl(0, 0%, 20%);
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
