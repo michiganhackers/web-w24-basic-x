@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+button:hover {
+  font-weight: bold;
+}
+
+#logo {
+  width: 72px;
+  height: 72px;
+}
+
+.tweet {
+  border: 1px solid #aaaaaa;
+}
