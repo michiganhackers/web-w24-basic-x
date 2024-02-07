@@ -45,3 +45,9 @@ p {
   background: white;
   z-index: 1;
 }
+
+@media (max-width: 500px) {
+  body {
+    font-size: 14px;
+  }
+}
