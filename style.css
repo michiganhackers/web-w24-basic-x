@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+body {
+  font-family: 'Comic Neue';
+  margin: 0;
+}
+
+#header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background: white;
+}
+
+#logo {
+  height: 48px;
+  position: relative;
+  bottom: 16px;
+}
+
+button:hover {
+  font-weight: bold;
+  cursor: pointer;
+  /* comment */
+}
+
+/* h2 {
+  font-family: serif;
+} */
+
+.tweet {
+  border: 1px solid lightgray;
+  background: rgb(240, 240, 240);
+  width: 80%;
+  margin: 16px;
+  padding: 8px;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
