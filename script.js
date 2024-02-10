@@ -21,4 +21,10 @@ const likeTweet = () => {
 const addTweet = (username, message) => {
   console.log('adding');
   // make this add a tweet to the dom
+
+  // query the tweetContainer div
+  // create div element (don't forget to add the class name of tweet)
+  // add the username and text
+  // append the new tweet root element to be a child of the tweetContainer
+  // use google to help you!
 };
