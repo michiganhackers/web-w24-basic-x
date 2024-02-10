@@ -12,7 +12,7 @@ const nothing = null;
 
 const sahil = {
   age: 19,
-  color: 'brown',
+  lastName: 'Sawant',
   gains: 0,
   money: -6969,
   bitches: null,
@@ -31,3 +31,25 @@ const num = 1;
 // so how does reassigning Sahil's age work?
 // objects use *referential* equality, they are passed and interpretted by their reference in memory, not their evaluated values
 console.log({ value: 1 } == { value: 1 });
+
+function add(a, b) {
+  return a + b;
+}
+
+const subtract = (a, b) => {
+  return a - b;
+};
+
+const calculate = (fn, a, b) => {
+  return fn(a, b);
+};
+
+console.log(calculate(add, 4, 5));
+
+const execute = (fn) => {
+  fn();
+};
+
+execute(() => {
+  console.log('running');
+});
