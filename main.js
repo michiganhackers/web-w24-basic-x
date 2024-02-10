@@ -10,6 +10,9 @@ const notBool = !bool;
 const myVar = undefined;
 const nothing = null;
 
+const arr = [1, 2, 3, 4];
+console.log(arr[2]);
+
 const sahil = {
   age: 19,
   lastName: 'Sawant',
