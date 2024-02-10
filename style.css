@@ -24,11 +24,11 @@ button:hover {
   color: hsl(0, 0%, 20%);
 }
 
-button {
+/* button {
   position: absolute;
   bottom: 8px;
   right: 8px;
-}
+} */
 
 h2 {
   margin: 0;

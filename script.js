@@ -18,10 +18,12 @@ const likeTweet = () => {
   document.getElementsByTagName('body')[0].appendChild(notification);
 };
 
-const addTweet = (username, message) => {
+const addTweet = () => {
   console.log('adding');
+  const username = 'bztravis';
   // make this add a tweet to the dom
 
+  // query the tweetInput box to get the text the user wants to tweet
   // query the tweetContainer div
   // create div element (don't forget to add the class name of tweet)
   // add the username and text
